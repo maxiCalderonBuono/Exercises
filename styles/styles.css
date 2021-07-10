@@ -1,12 +1,84 @@
-* {
-    box-sizing: border-box;
+   
+body {
+    margin: 0;   
 }
 
-body {
-    margin: 0;
+.header {
+    position:sticky;
+    top: 0px;
 }
 
 .menu {
-    width: 100%;
-    background-color: darkgrey;
+   
+    background-color:grey;
+    display: flex;
 }
+
+a {
+    margin-top: 22px;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    position:absolute;
+    margin-right: auto;
+}
+
+span {
+    padding-left: 60px;
+    color: red;
+}
+
+.img-menu {
+    height: 50px;
+    width: 50px;
+}
+
+.img-body {
+    height: 200px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+
+.piepagina {
+    background-color:grey;
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+table {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+th,td, tr {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+#colspan {
+    text-align: center;
+}
+

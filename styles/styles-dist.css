@@ -1,12 +1,18 @@
 * {
     box-sizing: border-box;
 }
-
+     
 body {
     margin: 0;
+    
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    
 }
 
 .menu {
-    width: 100%;
-    background-color: darkgrey;
+    
 }
