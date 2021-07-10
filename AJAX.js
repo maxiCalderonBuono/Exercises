@@ -1,3 +1,5 @@
+//CONSULTA DE DATOS EXTERNA
+
 // Ubico el botón de mi HTML
 const button = document.getElementById("data")
 
